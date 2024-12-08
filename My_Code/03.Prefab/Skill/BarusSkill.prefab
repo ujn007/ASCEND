@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8869646924293827274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7358565411851547485}
+  - component: {fileID: 2024468586615822101}
+  m_Layer: 0
+  m_Name: BarusSkill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7358565411851547485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8869646924293827274}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0163555, y: 19.972116, z: -209.95042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2024468586615822101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8869646924293827274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739cb33618948f7409c9c19f59ad7b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillEnabled: 1
+  _cooldown: 0
+  _maxCheckEnemy: 5
+  _maxSkillUpgradeCount: 5
+  clampPoint1: {x: -11.92, y: 0, z: -196.86586}
+  clampPoint2: {x: 16.987265, y: 0, z: -225.40314}
+  arrowRainDelayTime: 1
+  skillDis: 10
+  arrowSkillType: {fileID: 11400000, guid: 628834da2e0011a4c85f7fe38bea8696, type: 2}
+  arrowRainType: {fileID: 11400000, guid: 8f581b37df9f7804c98407860c498792, type: 2}
+  _targetPointDecal: {fileID: 1164063420433730301, guid: 876bf3d576d568542b3dc92a9c8cb2af,
+    type: 3}

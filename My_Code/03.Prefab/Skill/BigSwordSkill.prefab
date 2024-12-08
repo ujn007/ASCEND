@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4163085335921569471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4891538392985690446}
+  - component: {fileID: -2204715196665242543}
+  m_Layer: 0
+  m_Name: BigSwordSkill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4891538392985690446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4163085335921569471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2204715196665242543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4163085335921569471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff99ac57545006d4181aeabbf4f286e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillEnabled: 1
+  _cooldown: 0
+  _maxCheckEnemy: 5
+  _maxSkillUpgradeCount: 5
+  eventSO: {fileID: 11400000, guid: 2f0e660cf9205644095d2ea963def453, type: 2}
+  poolManager: {fileID: 11400000, guid: 10b1625def2519e42bd9d09fed6e3e0c, type: 2}
+  swordSpawnRadius: 9
+  swordSpawnTime: 0.15
+  swordSpawnMoveDuration: 0.1
+  swordSpawnCount: 7
+  swordPlusIndex: 3
+  dissolveTime: 2
+  swordPointParent: {fileID: -7393132863086957364, guid: d4693174e7ffc6444a8187a87d6d4a3c,
+    type: 3}
+  bigSwordType: {fileID: 11400000, guid: 6281491e579661a4e96083ad8999ef11, type: 2}
+  cloneType: {fileID: 11400000, guid: f2ca89c4850d7c24a8b4f54c6aa6d541, type: 2}
+  lastBigSwordType: {fileID: 11400000, guid: e6bf0fd32ffaee34ebdd36a72b0b008c, type: 2}
+  _spawnMirrorEventReference:
+    Guid:
+      Data1: 730857144
+      Data2: 1279012830
+      Data3: 1819487630
+      Data4: 665525859
+    Path: event:/SFX/Weapon/Sword/Skill/BigSword/SpawnMirror
+  _mirrorSlashEventReference:
+    Guid:
+      Data1: 1498656192
+      Data2: 1075775241
+      Data3: 1548437905
+      Data4: -1877380035
+    Path: event:/SFX/Weapon/Sword/Skill/BigSword/MirrorSlash
+  _spawnBigSwordEventReference:
+    Guid:
+      Data1: -150840094
+      Data2: 1170141421
+      Data3: -1465404759
+      Data4: -534568556
+    Path: event:/SFX/Weapon/Sword/Skill/BigSword/SpawnBigSword

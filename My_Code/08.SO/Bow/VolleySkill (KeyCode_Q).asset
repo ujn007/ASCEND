@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014e00c0ae1e4dc49aa01e10ed6c9af6, type: 3}
+  m_Name: VolleySkill (KeyCode_Q)
+  m_EditorClassIdentifier: 
+  skillTypeName: VolleySkill
+  keyIdx: 0
+  skillDescription: "\uBD80\uCC44\uAF34 \uBAA8\uC591\uC73C\uB85C \uD654\uC0B4\uC744
+    \uB9C8\uC6B0\uC2A4 \uBC29\uD5A5\uC73C\uB85C \uBC1C\uC0AC\uD569\uB2C8\uB2E4."
+  videoClip: {fileID: 32900000, guid: 4d94463a99eaaa346a66172a6aef163a, type: 3}
