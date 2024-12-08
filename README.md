@@ -1,2 +1,2 @@
 # ASCEND
-2Grade Engine Team Project
+2학기 엔진 프로젝트 입니다
